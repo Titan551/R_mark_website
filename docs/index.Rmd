@@ -15,18 +15,6 @@ library(reticulate)
 # Read in Datasets
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
-1) Create R markdown document and serve as standalone website (using GitHub pages) showing data wrangling and visualization skills. You can provide your own data from your thesis project or I can help you find a dataset…. (likely NCRMP related)
-
 # **My name is Cole Sheeley...**
 
 Hello World! This is my R markdown website to show some of my coding accomplishments in data wrangling, and visualization of data from my thesis project!
@@ -42,11 +30,6 @@ One of the main parts of this thesis is to analyze data from autonomous underwat
 ## Loading data
 ```{python, echo = FALSE}
 # Imports
-import scipy.interpolate as interp
-from scipy.sparse.linalg import lsqr, lsmr
-from scipy.sparse.linalg import inv
-from scipy import integrate
-import scipy
 import matplotlib.pyplot as plt
 from matplotlib.dates import DateFormatter, AutoDateLocator
 from matplotlib.dates import DateFormatter, HourLocator, MinuteLocator
@@ -54,18 +37,11 @@ import numpy as np
 import pandas as pd
 import glob
 import netCDF4 as nc
-import math
 import datetime
-import xarray as xr
 import matplotlib.dates as mdates
-import dask.array as da
 from erddapy import ERDDAP
-from netCDF4 import Dataset
-#import gsw
-#import cmocean.cm as cmo
 import sys
 from datetime import datetime
-import time
 import folium
 from folium.features import DivIcon
 from folium import Map, Marker, PolyLine
@@ -214,7 +190,7 @@ plot_temperature_depth(gdf,[567,568,569,570],downcast_dict)
 ```
 
 ## Contour plot of temperature
-```{python, echo = false}
+```{python, echo = FALSE}
 # %% TEMP DEPTH TIME CONTOUR PLOT
 # Plotting
 fig, ax = plt.subplots(figsize=(10, 8))
@@ -247,7 +223,7 @@ plt.show()
 ```
 
 ## Contour plot of salinity
-```{python, echo = false}
+```{python, echo = FALSE}
 # %% SALINITY
 # Assuming gdf_filter is your DataFrame with 'time', 'salinity', and 'depth' columns
 # Convert 'time' column to datetime if not already done
