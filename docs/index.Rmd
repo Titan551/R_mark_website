@@ -7,16 +7,12 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-```
+# libraries
+library(tidyverse)
+library(reticulate)
+# Source plotting functions
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+# Read in Datasets
 ```
 
 ## Including Plots
@@ -28,3 +24,265 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+1) Create R markdown document and serve as standalone website (using GitHub pages) showing data wrangling and visualization skills. You can provide your own data from your thesis project or I can help you find a dataset…. (likely NCRMP related)
+
+# **My name is Cole Sheeley...**
+
+Hello World! This is my R markdown website to show some of my coding accomplishments in data wrangling, and visualization of data from my thesis project!
+
+## Subject of my thesis:
+The overall goal of my thesis is to characterize the thermal variability of the reefs in the USVI, as well as look at the effects internal waves have on these reefs and their potential for cooling.
+
+## Section 1 - Data Wrangling
+One of the main parts of this thesis is to analyze data from autonomous underwater glider deployments. These gliders can be deployed over long distances for extended periods, making them extremely useful to reduce the man power needed to record deep reef temperatures. After each deployment the data is uploaded to an ERRDAP server that needs to be wrangled to show profiles and contours of oceanographic measurements overtime.
+
+# Wrangling steps {.tabset}
+
+## Loading data
+```{python, echo = FALSE}
+# Imports
+import scipy.interpolate as interp
+from scipy.sparse.linalg import lsqr, lsmr
+from scipy.sparse.linalg import inv
+from scipy import integrate
+import scipy
+import matplotlib.pyplot as plt
+from matplotlib.dates import DateFormatter, AutoDateLocator
+from matplotlib.dates import DateFormatter, HourLocator, MinuteLocator
+import numpy as np
+import pandas as pd
+import glob
+import netCDF4 as nc
+import math
+import datetime
+import xarray as xr
+import matplotlib.dates as mdates
+import dask.array as da
+from erddapy import ERDDAP
+from netCDF4 import Dataset
+#import gsw
+#import cmocean.cm as cmo
+import sys
+from datetime import datetime
+import time
+import folium
+from folium.features import DivIcon
+from folium import Map, Marker, PolyLine
+from folium.plugins import MeasureControl, MousePosition, Draw
+import os
+from geopy.distance import great_circle
+from shapely.geometry import Point, LineString
+from shapely.geometry.polygon import Polygon
+import geopandas as gpd
+import seaborn as sns
+import cartopy.crs as ccrs
+import cartopy.feature as cfeature
+from matplotlib.lines import Line2D
+
+
+#importing functions using pathing from the analysis and data folders to this file
+sys.path.insert(0,r'\UVI\Doug\Slocum-AD2CP-main\src\analysis')
+sys.path.insert(0,r'\UVI\Doug\Slocum-AD2CP-main\src\data')
+from make_dataset import correct_sound_speed, beam_true_depth, cell_vert, binmap_adcp, beam2enu, inversion, qaqc_pre_coord_transform, qaqc_post_coord_transform
+from analysis_edited import get_erddap_dataset
+
+# set wd
+os.chdir(r'c:\\UVI\\Doug\\UG2 CONFERENCE')
+
+#%% Helper functions
+from helper_functions_UVI2_erddap import plot_by_profileID
+from helper_functions_UVI2_erddap import plot_multiple_profileIDs
+from helper_functions_UVI2_erddap import plot_temperature_depth
+from helper_functions_UVI2_erddap import filter_data_for_site
+from helper_functions_UVI2_erddap import debug_unique_days_hours
+from helper_functions_UVI2_erddap import debug_unique_1_hour
+from helper_functions_UVI2_erddap import plot_data_for_dates
+from helper_functions_UVI2_erddap import record_time_ranges
+from helper_functions_UVI2_erddap import load_dataframe
+from helper_functions_UVI2_erddap import convert_to_datetime
+from helper_functions_UVI2_erddap import make_naive
+from helper_functions_UVI2_erddap import extract_date
+```
+```{python}
+#%%
+#define the ds_id
+ds_id = "uvi_02-20231102T1447-profile-sci-delayed"
+
+#load data
+variables = ['profile_id','depth', 'latitude', 'longitude', 'time', 'temperature', 'conductivity','salinity']
+gdf = get_erddap_dataset(ds_id, server='http://slocum-data.marine.rutgers.edu/erddap', variables = variables, filetype='dataframe')
+gdf.head()
+```
+## Reordering and renaming
+```{python}
+#%% Change the profile id column to start at 1 
+# Create a dictionary to store the mapping of old profile IDs to new ones
+profile_id_mapping = {}
+
+# Iterate over unique profile IDs in their original order
+for idx, profile_id in enumerate(gdf['profile_id'].unique(), start=1):
+    # Assign the new profile ID to each unique old profile ID
+    profile_id_mapping[profile_id] = idx
+
+# Map the original profile IDs to their new values
+gdf['profile_id'] = gdf['profile_id'].map(profile_id_mapping)
+
+#rename the columns
+gdf.rename(columns={'temperature (degrees_C)': 'temperature'}, inplace=True)
+gdf.rename(columns={'depth (m)': 'depth'}, inplace=True)
+gdf.rename(columns={'latitude (degrees_north)': 'latitude'}, inplace=True)
+gdf.rename(columns={'longitude (degrees_east)': 'longitude'}, inplace=True)
+gdf.rename(columns={'conductivity (S m-1)': 'conductivity'}, inplace=True)
+gdf.rename(columns={'time (UTC)': 'time'}, inplace=True)
+gdf.rename(columns={'salinity (1)': 'salinity'}, inplace=True)
+
+# check if they are renamed
+print(gdf.columns)
+```
+
+## Grouping profile ids
+```{python}
+# %% adjacent plots overtime temp (right axis) depth and time
+gdf_profile_id = gdf.groupby('profile_id')
+
+#make a nested dictionary
+dict_profile_id = {}
+
+for profile_id, group_df in gdf_profile_id:
+    dict_profile_id[profile_id] = group_df.sort_values(by='profile_id')
+#example to call the df for each profile ID
+print(dict_profile_id[568])
+```
+
+## Separating downcast and upcast
+```{python}
+#%% slope nested dictionaries
+# Calculate the slope of depth for each profile
+slope_df = gdf.groupby('profile_id').apply(lambda x: (x['depth'].iloc[-1] - x['depth'].iloc[0]) / (x.index[-1] - x.index[0]))
+
+# Create nested dictionaries for profiles with negative and positive slopes
+downcast_dict = {}
+upcast_dict = {}
+# Numerically, depth INCREASES when it goes DOWN and DECREASES when it goes UP
+# So this loop puts those profiles with a POSITIVE slope into DOWNCAST and NEGATIVE slope to UPCAST
+for profile_id, slope in slope_df.items():
+    if slope > 0:
+        downcast_dict[profile_id] = gdf[gdf['profile_id'] == profile_id]
+    else:
+        upcast_dict[profile_id] = gdf[gdf['profile_id'] == profile_id]
+
+
+# Now negative_slope_dict contains DataFrames for each profile with negative slope
+# And positive_slope_dict contains DataFrames for each profile with positive slope
+
+# Example: accessing DataFrame for profile_id = 567 in negative_slope_dict
+print(f'this is the data for a downcast{downcast_dict[567]}')
+
+# Example: accessing DataFrame for profile_id = 568 in positive_slope_dict
+print(f'this is the data for an upcast {upcast_dict[568]}')
+```
+
+## Filtering data for temperature and salinity
+```{python}
+# %% FILTER GDF FOR CONTOUR PLOTTING
+# Create gdf_filter by dropping rows with NaN values
+gdf_filter = gdf.dropna()
+
+# Verify the new DataFrame without NaN values
+print(gdf_filter.head())
+
+# Convert 'time' column to datetime if not already done
+gdf_filter['time'] = pd.to_datetime(gdf_filter['time'])
+
+# Print minimum and maximum values of temperature and depth
+print(f"Temperature bounds: min={gdf_filter['temperature'].min()}, max={gdf_filter['temperature'].max()}")
+print(f"Depth bounds: min={gdf_filter['depth'].min()}, max={gdf_filter['depth'].max()}")
+```
+
+# Section 2 - Generating plots
+
+After organizing the profiles by their ids and making sure they are identified by down and upcasts, multiple profiles can be plotted along with the temperature and salinity contour plots over time.
+
+# Plotting data {.tabset}
+
+## Plotting profiles
+This is a plot of the depth of the glider over mutliple profiles
+```{python, echo = FALSE}
+# %% Plot mutliple profile IDs to see the down and upcasts on a time series for temperature and depth
+plot_temperature_depth(gdf,[567,568,569,570],downcast_dict)
+```
+
+## Contour plot of temperature
+```{python, echo = false}
+# %% TEMP DEPTH TIME CONTOUR PLOT
+# Plotting
+fig, ax = plt.subplots(figsize=(10, 8))
+
+# Create a scatter plot with temperature as color gradient
+sc = ax.scatter(gdf_filter['time'], gdf_filter['depth'], c=gdf_filter['temperature'], cmap='rainbow', vmin=20, vmax=30, marker='o')
+
+# Add colorbar
+cbar = plt.colorbar(sc, ax=ax, label='Temperature (°C)')
+
+# Set labels and title
+ax.set_xlabel('Time')
+ax.set_ylabel('Depth (m)')
+ax.set_title('Temperature Time-Depth Plot')
+
+# Set limits for temperature and depth
+ax.set_xlim(gdf_filter['time'].min(), gdf_filter['time'].max())  # Adjust x-axis limits based on time range
+ax.set_ylim(0, 200)  # Adjust y-axis limits based on depth range
+
+# Format x-axis dates nicely
+ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d %H:%M:%S'))
+plt.xticks(rotation=45)
+
+# Invert y-axis for depth
+ax.invert_yaxis()
+
+# Show the full contour plot
+plt.tight_layout()
+plt.show()
+```
+
+## Contour plot of salinity
+```{python, echo = false}
+# %% SALINITY
+# Assuming gdf_filter is your DataFrame with 'time', 'salinity', and 'depth' columns
+# Convert 'time' column to datetime if not already done
+gdf_filter['time'] = pd.to_datetime(gdf_filter['time'])
+
+# Print minimum and maximum values of salinity and depth
+print(f"Salinity bounds: min={gdf_filter['salinity'].min()}, max={gdf_filter['salinity'].max()}")
+print(f"Depth bounds: min={gdf_filter['depth'].min()}, max={gdf_filter['depth'].max()}")
+
+# Plotting salinity
+fig, ax = plt.subplots(figsize=(10, 8))
+
+# Create a scatter plot with salinity as color gradient
+sc = ax.scatter(gdf_filter['time'], gdf_filter['depth'], c=gdf_filter['salinity'], cmap='rainbow', vmin=34.5, vmax=38, marker='o')
+
+# Add colorbar with specified ticks
+cbar = plt.colorbar(sc, ax=ax, ticks=[34.5, 35.0, 35.5, 36.0, 36.5, 37.0, 37.5, 38.0], label='Salinity')
+
+# Set labels and title
+ax.set_xlabel('Time')
+ax.set_ylabel('Depth (m)')
+ax.set_title('Salinity Time-Depth Plot')
+
+# Set limits for salinity and depth
+ax.set_xlim(gdf_filter['time'].min(), gdf_filter['time'].max())
+ax.set_ylim(0, 200)
+
+# Format x-axis dates nicely
+ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d %H:%M:%S'))
+plt.xticks(rotation=45)
+
+# Invert y-axis for depth
+ax.invert_yaxis()
+
+# show the full salinity contour plot
+plt.tight_layout()
+plt.show()
+```
