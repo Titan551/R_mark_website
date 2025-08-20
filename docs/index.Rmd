@@ -37,7 +37,7 @@ Longitude: -64.98595
 Site Description: High cover mixed orbicellid fringing reef near UVI  
 Depth: 9 meters  
 
-![Seasonsal determination](C:/UVI\\Doug\\Thesis project\\ABSOLUTE_FINAL_DATA\\TCRMP\\Black Point\\Black Point_seasonal_plot.png)
+![Seasonsal determination](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/TCRMP/Black Point/Black Point_seasonal_plot.png)
 
 Black Point 
 
