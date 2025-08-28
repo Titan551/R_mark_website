@@ -36,9 +36,10 @@ Latitude: 18.3445
 Longitude: -64.98595  
 Depth: 9 meters  
 
-Characterization: Black Point is a shallow orbicellid reef located just offshore from UVI St. Thomas. Temperature monitoring at this site has occured annually since 2006. Linear regression of the time series shows an overall increase in temperature of 0.51°C with an annual increase of 0.028°C. Multi linear regressions on Mean Max and Min show minimum temperatures (0.56°C, 0.031°C/yr) have a greater increase overall and annually than max temperatures(0.48°C, 0.026°C/yr). This reef shows seasonal changes in early January and late October with peak warm and cold temperatures in September and February respectively. Power spectral denstiy of the site on the time series and during seasons shows most effective changes to thermal variability occur on long annual timescales, however there are peaks on diurnal and semi-diurnal scales. Effects from internal waves are present but show minimal reduction in temperature (0.11°C average).
+Characterization: Black Point is a shallow Orbicella-dominated reef located just offshore from the University of the Virgin Islands, St. Thomas. Temperature monitoring at this site has been conducted annually since 2006. Linear regression of the long-term time series indicates an overall warming of 0.51 °C, corresponding to an average annual increase of 0.028 °C yr⁻¹.  Multiple linear regression analyses of mean maximum and minimum temperatures reveal that minimum temperatures exhibit greater long-term and annual increases (0.56 °C total; 0.031 °C yr⁻¹) compared to maximum temperatures (0.48 °C total; 0.026 °C yr⁻¹). Seasonal variability is evident, with transitions occurring in early January and late October. Peak warm conditions are typically observed in September, while the coldest temperatures occur in February. Power spectral density analysis of the time series demonstrates that the dominant contributions to thermal variability occur on long, annual timescales, with secondary peaks at diurnal and semi-diurnal frequencies. Internal wave activity is detectable but contributes only minimal cooling, with an average reduction of 0.11 °C.
 
 ![Temperature Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Temp_Black Point_combined_temperature_time_series.png)
+![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Temp_Black Point_daily_low_std.png)
 ![Single Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Black Point_IW_REGRESSION.png)
 ![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Black Point_IW_MULTI_REGRESSION.png)
 ![Seasonsal determination](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Black Point_seasonal_plot.png)
@@ -47,101 +48,719 @@ Characterization: Black Point is a shallow orbicellid reef located just offshore
 ![PSD cold season](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/PSD_cold_Temp_Black Point_combined.png)
 ![Internal Wave effects](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Black Point_NIW_IW_comparison.png)
 
-Black Point 
-
 ## Botany Bay
+Latitude: 18.35738
+Longitude: -65.03442
+Depth: 8 meters
 
+Characterization: Botany Bay is a shallow reef located on northside of St. Thomas. Temperature collection at the site has occurred at the site from 2006 to 2024 with minor gaps between 06 and 07. However, this site shows inter annual and seasonal variability. Linear fits show an increase in temperature of 0.24°C with maximum and minimum temperatures rising 0.63°C and 0.62°C respectively. Peak minimum and maximum temperatures occur in March and September respectively. Site most effected by annual changes but power shows peaks on diurnal and semi-diurnal timescales. Effects from internal waves are minimal with only 0.07°C reduction on average.
+
+![Temperature Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Botany Bay/Temp_Botany Bay_combined_temperature_time_series.png)
+![Single Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Botany Bay/Botany Bay_IW_REGRESSION.png)
+![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Botany Bay/Botany Bay_IW_MULTI_REGRESSION.png)
+![Seasonal determination](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Botany Bay/Botany Bay_seasonal_plot.png)
+![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Botany Bay/PSD_LT_Temp_Botany Bay_combined.png)
+![PSD warm season](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Botany Bay/PSD_warm_Temp_Botany Bay_combined.png)
+![PSD cold season](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Botany Bay/PSD_cold_Temp_Botany Bay_combined.png)
+![Internal Wave effects](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Botany Bay/Botany Bay_NIW_IW_comparison.png)
+
+## Brewers Bay
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
 
 ![Temperature Timeseries]()
-![Seasonsal determination]()
-![Internal Wave effects]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
 ![Power Spectral Density (PSD)]()
 ![PSD warm season]()
 ![PSD cold season]()
-## Brewers Bay
+![Internal Wave effects]()
 
 ## Buck Island STT
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Buck Island STX NPS
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Buck Island Deep
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Cane Bay
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Cane Bay 67
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Cane Bay 100
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Cane Bay Deep
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Castle
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Coculus Rock
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## College Shoal East
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Coral Bay
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Eagle Bay
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Fish Bay
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Flat Cay
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Ginsburg Fringe
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Grammanik Tiger FSA
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Great Pond
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Hind Bank East FSA
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Jacks Bay
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Kings Corner
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Lang Bank EEMP
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Lang Bank EEMP 67
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Lang Bank EEMP 100
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Lang Bank Red Hind FSA
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Magens Bay
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Meri Shoal
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Mutton Snapper FSA
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Mutton Snapper FSA 40
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Salt River 41
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Salt River 67
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Salt River 100
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Salt River Deep
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Salt River West (NPS or AOML havent decided)
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Savana
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Seahorse Cottage Shoal
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## South Capella
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## South Capella 35
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## South Water
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## Sprat Hole
+Latitude: 
+Longitude:  
+Depth:
+
+Characterization:
+
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
 
 ## St. James
+Latitude: 
+Longitude:  
+Depth:
 
-# Section 2 - Generating plots
+Characterization:
 
-After organizing the profiles by their ids and making sure they are identified by down and upcasts, multiple profiles can be plotted along with the temperature and salinity contour plots over time.
+![Temperature Timeseries]()
+![Single Regression Timeseries]()
+![Multi Regression Timeseries]()
+![Seasonal determination]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
+![Internal Wave effects]()
+
+
+# Section 2 - Thermistor string
+
 
 # Plotting data {.tabset}
