@@ -34,15 +34,30 @@ There are several sites across the US Virgin Islands used in this study. These s
 ## Black Point
 Latitude: 18.3445  
 Longitude: -64.98595  
-Site Description: High cover mixed orbicellid fringing reef near UVI  
 Depth: 9 meters  
 
-![Seasonsal determination](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/TCRMP/Black Point/Black Point_seasonal_plot.png)
+Characterization: Black Point is a shallow orbicellid reef located just offshore from UVI St. Thomas. Temperature monitoring at this site has occured annually since 2006. Linear regression of the time series shows an overall increase in temperature of 0.51°C with an annual increase of 0.028°C. Multi linear regressions on Mean Max and Min show minimum temperatures (0.56°C, 0.031°C/yr) have a greater increase overall and annually than max temperatures(0.48°C, 0.026°C/yr). This reef shows seasonal changes in early January and late October with peak warm and cold temperatures in September and February respectively. Power spectral denstiy of the site on the time series and during seasons shows most effective changes to thermal variability occur on long annual timescales, however there are peaks on diurnal and semi-diurnal scales. Effects from internal waves are present but show minimal reduction in temperature (0.11°C average).
+
+![Temperature Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Temp_Black Point_combined_temperature_time_series.png)
+![Single Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Black Point_IW_REGRESSION.png)
+![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Black Point_IW_MULTI_REGRESSION.png)
+![Seasonsal determination](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Black Point_seasonal_plot.png)
+![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/PSD_LT_Temp_Black Point_combined.png)
+![PSD warm season](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/PSD_warm_Temp_Black Point_combined.png)
+![PSD cold season](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/PSD_cold_Temp_Black Point_combined.png)
+![Internal Wave effects](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Black Point_NIW_IW_comparison.png)
 
 Black Point 
 
 ## Botany Bay
 
+
+![Temperature Timeseries]()
+![Seasonsal determination]()
+![Internal Wave effects]()
+![Power Spectral Density (PSD)]()
+![PSD warm season]()
+![PSD cold season]()
 ## Brewers Bay
 
 ## Buck Island STT
