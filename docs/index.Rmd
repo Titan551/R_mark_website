@@ -18,7 +18,6 @@ library(reticulate)
 ```
 
 # **Introduction**
-TEST
 
 Coral reefs are integral ecosystems, each with their own set of diverse and endemic organisms. The coral reefs of the Virgin Islands vary in size and depth extending down to the mesophotic range, aprroximately 30 to 150m. These shallow and mesophotic coral ecosystems (MCEs) are exposed to annual, seasonal, and dirunal variations in oceanographic variables (temperature, salinity, nutrients etc). This thesis will explore and characterize the oceanographic changes on the reefs, as well as investigate the effects from offshore internal waves.
 
