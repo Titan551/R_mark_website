@@ -65,20 +65,21 @@ Characterization: Botany Bay is a shallow reef located on northside of St. Thoma
 ![Internal Wave effects](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Botany Bay/Botany Bay_NIW_IW_comparison.png)
 
 ## Brewers Bay
-Latitude: 
-Longitude:  
-Depth:
+Depth: 6 meters
+Latitude: 18.34403
+Longitude: -64.98435
 
-Characterization:
 
-![Temperature Timeseries]()
-![Single Regression Timeseries]()
-![Multi Regression Timeseries]()
-![Seasonal determination]()
-![Power Spectral Density (PSD)]()
-![PSD warm season]()
-![PSD cold season]()
-![Internal Wave effects]()
+Characterization: Brewers Bay is a high cover orbicella annularis reef near UVI, with annual monitoring dating from 2018-2024. Temperature regressions show an overall increase of 1.22°C (0.203/yr) with max temperatures rising more than minimums at 1.25°C (0.208/yr) and 1.21°C (0.201/yr) respectively. This site experiences peak cold and warm seasons in February and September and shows peaks on semi-diurnal scales but is more influenced by annual changes. Internal waves do exhibit an effect on the reef, however it is very minor with and average temperature reduction of 0.10°C.
+
+![Temperature Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Brewers Bay/Temp_Brewers Bay_combined_temperature_time_series.png)
+![Single Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Brewers Bay/Brewers Bay_IW_REGRESSION.png)
+![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Brewers Bay/Brewers Bay_IW_MULTI_REGRESSION.png)
+![Seasonal determination](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Brewers Bay/Brewers Bay_seasonal_plot.png)
+![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Brewers Bay/PSD_LT_Temp_Brewers Bay_combined.png)
+![PSD warm season](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Brewers Bay/PSD_warm_Temp_Brewers Bay_combined.png)
+![PSD cold season](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Brewers Bay/PSD_cold_Temp_Brewers Bay_combined.png)
+![Internal Wave effects](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Brewers Bay/Brewers Bay_NIW_IW_comparison.png)
 
 ## Buck Island STT
 Latitude: 
