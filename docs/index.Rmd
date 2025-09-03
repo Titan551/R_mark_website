@@ -18,6 +18,7 @@ library(reticulate)
 ```
 
 # **Introduction**
+TEST
 
 Coral reefs are integral ecosystems, each with their own set of diverse and endemic organisms. The coral reefs of the Virgin Islands vary in size and depth extending down to the mesophotic range, aprroximately 30 to 150m. These shallow and mesophotic coral ecosystems (MCEs) are exposed to annual, seasonal, and dirunal variations in oceanographic variables (temperature, salinity, nutrients etc). This thesis will explore and characterize the oceanographic changes on the reefs, as well as investigate the effects from offshore internal waves.
 
@@ -65,10 +66,9 @@ Characterization: Botany Bay is a shallow reef located on northside of St. Thoma
 ![Internal Wave effects](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Botany Bay/Botany Bay_NIW_IW_comparison.png)
 
 ## Brewers Bay
-Depth: 6 meters
 Latitude: 18.34403
 Longitude: -64.98435
-
+Depth: 6 meters
 
 Characterization: Brewers Bay is a high cover orbicella annularis reef near UVI, with annual monitoring dating from 2018-2024. Temperature regressions show an overall increase of 1.22°C (0.203/yr) with max temperatures rising more than minimums at 1.25°C (0.208/yr) and 1.21°C (0.201/yr) respectively. This site experiences peak cold and warm seasons in February and September and shows peaks on semi-diurnal scales but is more influenced by annual changes. Internal waves do exhibit an effect on the reef, however it is very minor with and average temperature reduction of 0.10°C.
 
@@ -82,20 +82,21 @@ Characterization: Brewers Bay is a high cover orbicella annularis reef near UVI,
 ![Internal Wave effects](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Brewers Bay/Brewers Bay_NIW_IW_comparison.png)
 
 ## Buck Island STT
-Latitude: 
-Longitude:  
-Depth:
+Latitude: 18.27883
+Longitude: -64.89833
+Depth: 14 meters
 
-Characterization:
 
-![Temperature Timeseries]()
-![Single Regression Timeseries]()
-![Multi Regression Timeseries]()
-![Seasonal determination]()
-![Power Spectral Density (PSD)]()
-![PSD warm season]()
-![PSD cold season]()
-![Internal Wave effects]()
+Characterization: Buck Island STT is a fringing reef near the uninhabited Buck Island, St. Thomas. This site contains continouos monitoring since 2006 except for a gap in mid 2009 to late 2010. Temperature has steadily increased over the years at this site with an overall increase of 0.61°C (0.034/yr) with minimum temperatures rising higher than max 0.72°C(0.039/yr) to 0.64°C (0.035/yr)
+
+![Temperature Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Buck Island STT/Temp_Buck Island STT_combined_temperature_time_series.png)
+![Single Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Buck Island STT/Buck Island STT_IW_REGRESSION.png)
+![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Buck Island STT/Buck Island STT_IW_MULTI_REGRESSION.png)
+![Seasonal determination](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Buck Island STT/Buck Island STT_seasonal_plot.png)
+![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Buck Island STT/PSD_LT_Temp_Buck Island STT_combined.png)
+![PSD warm season](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Buck Island STT/PSD_warm_Temp_Buck Island STT_combined.png)
+![PSD cold season](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Buck Island STT/PSD_cold_Temp_Buck Island STT_combined.png)
+![Internal Wave effects](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Buck Island STT/Buck Island STT_NIW_IW_comparison.png)
 
 
 ## Buck Island STX NPS
