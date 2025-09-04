@@ -38,15 +38,15 @@ Depth: 9 meters
 
 Characterization: Black Point is a shallow Orbicella-dominated reef located just offshore from the University of the Virgin Islands, St. Thomas. Temperature monitoring at this site has been conducted annually since 2006. Linear regression of the long-term time series indicates an overall warming of 0.51 °C, corresponding to an average annual increase of 0.028 °C yr⁻¹.  Multiple linear regression analyses of mean maximum and minimum temperatures reveal that minimum temperatures exhibit greater long-term and annual increases (0.56 °C total; 0.031 °C yr⁻¹) compared to maximum temperatures (0.48 °C total; 0.026 °C yr⁻¹). Seasonal variability is evident, with transitions occurring in early January and late October. Peak warm conditions are typically observed in September, while the coldest temperatures occur in February. Power spectral density analysis of the time series demonstrates that the dominant contributions to thermal variability occur on long, annual timescales, with secondary peaks at diurnal and semi-diurnal frequencies. Internal wave activity is detectable but contributes only minimal cooling, with an average reduction of 0.11 °C.
 
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Temp_Black Point_combined_temperature_time_series.png)
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Temp_Black Point_daily_low_std.png)
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Black Point_IW_REGRESSION.png)
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Black Point_IW_MULTI_REGRESSION.png)
-![Seasonsal determination](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Black Point_seasonal_plot.png)
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/PSD_LT_Temp_Black Point_combined.png)
-![PSD warm season](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/PSD_warm_Temp_Black Point_combined.png)
-![PSD cold season](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/PSD_cold_Temp_Black Point_combined.png)
-![Internal Wave effects](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Black Point/Black Point_NIW_IW_comparison.png)
+![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Black Point_combined_temperature_time_series.png)
+![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Black Point_daily_low_std.png)
+![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Black Point_IW_REGRESSION.png)
+![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Black Point_IW_MULTI_REGRESSION.png)
+![Seasonsal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Black Point_seasonal_plot.png)
+![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Black Point_combined.png)
+![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Black Point_combined.png)
+![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Black Point_combined.png)
+![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Black Point_NIW_IW_comparison.png)
 
 ## Botany Bay
 Latitude: 18.35738
@@ -56,6 +56,7 @@ Depth: 8 meters
 Characterization: Botany Bay is a shallow reef located on northside of St. Thomas. Temperature collection at the site has occurred at the site from 2006 to 2024 with minor gaps between 06 and 07. However, this site shows inter annual and seasonal variability. Linear fits show an increase in temperature of 0.24°C with maximum and minimum temperatures rising 0.63°C and 0.62°C respectively. Peak minimum and maximum temperatures occur in March and September respectively. Site most effected by annual changes but power shows peaks on diurnal and semi-diurnal timescales. Effects from internal waves are minimal with only 0.07°C reduction on average.
 
 ![Temperature Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Botany Bay/Temp_Botany Bay_combined_temperature_time_series.png)
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Botany Bay/Botany Bay_IW_REGRESSION.png)
 ![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Botany Bay/Botany Bay_IW_MULTI_REGRESSION.png)
 ![Seasonal determination](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Botany Bay/Botany Bay_seasonal_plot.png)
@@ -72,6 +73,7 @@ Depth: 6 meters
 Characterization: Brewers Bay is a high cover orbicella annularis reef near UVI, with annual monitoring dating from 2018-2024. Temperature regressions show an overall increase of 1.22°C (0.203/yr) with max temperatures rising more than minimums at 1.25°C (0.208/yr) and 1.21°C (0.201/yr) respectively. This site experiences peak cold and warm seasons in February and September and shows peaks on semi-diurnal scales but is more influenced by annual changes. Internal waves do exhibit an effect on the reef, however it is very minor with and average temperature reduction of 0.10°C.
 
 ![Temperature Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Brewers Bay/Temp_Brewers Bay_combined_temperature_time_series.png)
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Brewers Bay/Brewers Bay_IW_REGRESSION.png)
 ![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Brewers Bay/Brewers Bay_IW_MULTI_REGRESSION.png)
 ![Seasonal determination](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Brewers Bay/Brewers Bay_seasonal_plot.png)
@@ -89,6 +91,7 @@ Depth: 14 meters
 Characterization: Buck Island STT is a fringing reef near the uninhabited Buck Island, St. Thomas. This site contains continouos monitoring since 2006 except for a gap in mid 2009 to late 2010. Temperature has steadily increased over the years at this site with an overall increase of 0.61°C (0.034/yr) with minimum temperatures rising higher than max 0.72°C(0.039/yr) to 0.64°C (0.035/yr)
 
 ![Temperature Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Buck Island STT/Temp_Buck Island STT_combined_temperature_time_series.png)
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Buck Island STT/Buck Island STT_IW_REGRESSION.png)
 ![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Buck Island STT/Buck Island STT_IW_MULTI_REGRESSION.png)
 ![Seasonal determination](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/SITES/Buck Island STT/Buck Island STT_seasonal_plot.png)
@@ -106,6 +109,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -123,6 +127,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -140,6 +145,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -157,6 +163,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -174,6 +181,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -191,6 +199,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -208,6 +217,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -225,6 +235,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -242,6 +253,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -259,6 +271,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -276,6 +289,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -293,6 +307,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -310,6 +325,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -327,6 +343,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -344,6 +361,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -361,6 +379,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -378,6 +397,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -395,6 +415,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -412,6 +433,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -429,6 +451,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -446,6 +469,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -463,6 +487,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -480,6 +505,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -497,6 +523,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -514,6 +541,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -531,6 +559,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -548,6 +577,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -565,6 +595,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -582,6 +613,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -599,6 +631,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -616,6 +649,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -633,6 +667,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -650,6 +685,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -667,6 +703,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -684,6 +721,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -701,6 +739,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -718,6 +757,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -735,6 +775,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
@@ -752,6 +793,7 @@ Depth:
 Characterization:
 
 ![Temperature Timeseries]()
+![Daily Temperature Standard Deviation]()
 ![Single Regression Timeseries]()
 ![Multi Regression Timeseries]()
 ![Seasonal determination]()
