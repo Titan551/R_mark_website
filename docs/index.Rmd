@@ -72,7 +72,7 @@ Longitude: -64.98595
 Depth: 9 meters 
 Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
 
-Characterization: Black Point is a shallow Orbicella-dominated reef located just offshore from the University of the Virgin Islands, St. Thomas. This site experiences strong seasonality, with temperatures steadily increasing overtime. The raise in minimum temperatures, in combination with low thermal relief from internal waves, exposes the site to reduced cooling and warmer "cold" months, likely making the site more susceptible to long term heat stress.
+Characterization: Black Point is a shallow Orbicella-dominated reef located just offshore from the University of the Virgin Islands, St. Thomas. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 
 ```{python, results = 'asis', echo=FALSE}
@@ -105,7 +105,7 @@ Longitude: -65.03442
 Depth: 8 meters  
 Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
 
-Characterization: Botany Bay is a shallow reef located on northside of St. Thomas. The characteristics of this shallow site indicate strong seasonality, with limited thermal buffering by internal waves and steadily increasing temperatures. This site likely has a higher susceptibility to extended periods of thermal stress.
+Characterization: Botany Bay is a shallow reef located on northside of St. Thomas. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results = 'asis', echo=FALSE}
 make_site_table("Botany Bay")
@@ -137,9 +137,7 @@ Longitude: -64.98435
 Depth: 6 meters  
 Years of Data: 2018, 2019, 2020, 2021, 2022, 2023, 2024
 
-Characterization: Brewers Bay is a high cover orbicella annularis reef near UVI, with annual monitoring dating from 2018-2024. The dominant changes at this site are seasonality and annual temperature increase.
-
-Temperature regressions show an overall increase of 1.22°C (0.203/yr) with max temperatures rising more than minimums at 1.25°C (0.208/yr) and 1.21°C (0.201/yr) respectively. This site experiences peak cold and warm seasons in February and September and shows peaks on semi-diurnal scales but is more influenced by annual changes. Internal waves do exhibit an effect on the reef, however it is very minor with and average temperature reduction of 0.10°C.
+Characterization: Brewers Bay is a high cover orbicella annularis reef near UVI, with annual monitoring dating from 2018-2024. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Brewers Bay")
@@ -172,9 +170,7 @@ Depth: 14 meters
 Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
 
 
-Characterization: Buck Island STT is a fringing reef near the uninhabited Buck Island, St. Thomas. Dominant shifts of the site occur through strong seasonality and annual temperature increase.
-
-This site contains continuous monitoring since 2006 except for a gap in mid 2009 to late 2010. Temperature has steadily increased over the years at this site with an overall increase of 0.61°C (0.034/yr) with minimum temperatures rising higher than max 0.72°C(0.039/yr) to 0.64°C (0.035/yr)
+Characterization: Buck Island STT is a fringing reef near the uninhabited Buck Island, St. Thomas. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Buck Island STT")
@@ -197,7 +193,7 @@ Depth: 12 meters
 Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018
 
 
-Characterization: Buck Island STX NPS data is from the South Florida Caribbean/Network reef-depth water temperature dataset. Monitoring site within BUIS, SARI. The dominant changes expressed on this reef are from strong seasonality and diurnal temperature shifts.
+Characterization: Buck Island STX NPS data is from the South Florida Caribbean/Network reef-depth water temperature dataset. Monitoring site within BUIS, SARI. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Buck Island STX NPS")
@@ -228,7 +224,7 @@ Longitude: -64.59935
 Depth: 33 meters  
 Years of Data: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 
 
-Characterization: Buck  Mesophotic reef with high orbicellid cover north of Buck Island within the Virgin Islands National Monument. This site shows mild seasonality and annual temeprature increase as the dominant drivers.
+Characterization: Buck  Mesophotic reef with high orbicellid cover north of Buck Island within the Virgin Islands National Monument. This site shows dominant characteristics on annual frequencies, with a greater peak on semidiurnal frequency than diurnal.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Buck Island STX Deep")
@@ -261,7 +257,7 @@ Depth: 10 meters
 Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
 
 
-Characterization: Cane Bay is a Orbicella reef near a dive mooring in St. Croix. Dominant characteristics are expressed in strong seasonality and rising annual temperatures.
+Characterization: Cane Bay is a Orbicella reef near a dive mooring in St. Croix. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Cane Bay")
@@ -293,7 +289,7 @@ Longitude: -64.81522
 Depth: 67 meters  
 Years of Data: 2018, 2019, 2020, 2021
 
-Characterization:Temperature probe only site at Cane Bay St. Croix. Dominant characteristics are annual temperature increase, and semi diurnal shifts, and internal wave activity, but is also a shorter timeseries.
+Characterization:Temperature probe only site at Cane Bay St. Croix. This site shows dominant characteristics on annual frequencies, with a greater peak on semidiurnal frequency than diurnal.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Cane Bay 67")
@@ -325,7 +321,7 @@ Longitude: -64.81522
 Depth: 100 meters  
 Years of Data: 2018, 2019, 2020, 2021
 
-Characterization: Temperature probe at the Cane Bay St. Croix site at 100m depth. Limited timeseries for the site shows driving forces to be semi-diurnal activity and internal wave buffering. 
+Characterization: Temperature probe at the Cane Bay St. Croix site at 100m depth. This site shows dominant characteristics on annual frequencies, with a larger peak on semidiurnal frequency than diurnal. 
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Cane Bay 100")
@@ -357,7 +353,7 @@ Longitude: -64.81522
 Depth: 38 meters  
 Years of Data: 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
 
-Characterization: Wall reef closest offshelf from Cane Bay shallow site. Dominant changes shown are annual temperature increase and strong seasonality.
+Characterization: Wall reef closest offshelf from Cane Bay shallow site. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Cane Bay Deep")
@@ -390,7 +386,7 @@ Depth: 7 meters
 Years of Data: 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
 
 
-Characterization: Castle is a haphazard selection along the Tague Bay reef near the closed West Indies Laboratory. Annual temperature increase and seasonality are dominant frequencies of the site.
+Characterization: Castle is a haphazard selection along the Tague Bay reef near the closed West Indies Laboratory. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Castle")
@@ -423,7 +419,7 @@ Depth: 7 meters
 Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
 
 
-Characterization: Coculus Rock is a fringing reef on basalt near mouth of Benner Bay and Mangrove Lagoon. 
+Characterization: Coculus Rock is a fringing reef on basalt near mouth of Benner Bay and Mangrove Lagoon. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Coculus Rock")
@@ -450,11 +446,13 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## College Shoal East
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.18568  
+Longitude: -65.07677  
+Depth: 30 meters  
 
-Characterization:
+Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+Characterization: College Shoal East is a mesophotic reef with high orbicellid cover inside the Hind Bank Marine Conservation District. This site shows dominant characteristics on annual frequencies, with a large peak on semidiurnal frequency and subsequent peaks on diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("College Shoal East")
@@ -481,11 +479,13 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Coral Bay
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.33797  
+Longitude: -64.70402  
+Depth: 9 meters  
 
-Characterization:
+Years of Data: 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+ 
+Characterization: This site is a patch reef in Coral Bay outside Coral Harbor. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Coral Bay")
@@ -512,11 +512,13 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Eagle Ray
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.7615  
+Longitude: -64.6988    
+Depth: 10 meters  
 
-Characterization:
+Years of Data: 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+Characterization: Eagle Ray is set on a dive mooring near mouth of Christiansted Harbor, St Croix. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Eagle Ray")
@@ -543,11 +545,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Fish Bay
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.31417  
+Longitude: -64.76408  
+Depth: 6 meters  
 
-Characterization:
+Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+
+Characterization: Fish Bay is located just outside the Virgin Islands National Park on the western shore along a gradient of land based sources of pollution. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Fish Bay")
@@ -574,12 +579,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Flat Cay
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.31822  
+Longitude: -64.99104  
+Depth: 12 meters  
 
-Characterization:
+Years of Data: 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+  
 
+Characterization: Flat Cay is a fringing reef near uninhabited cay southwest of St. Thomas. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 ```{python, results='asis', echo=FALSE}
 make_site_table("Flat Cay")
 ```
@@ -605,11 +612,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Ginsburg Fringe
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.1877  
+Longitude: -64.95998  
+Depth: 63 meters  
 
-Characterization:
+Years of Data: 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+ 
+
+Characterization: Ginsburg Fringe is a lower mesophotic coral reef on well-developed agaricid fringe. This site shows dominant characteristics on annual frequencies, with a large peak on semidiurnal frequency and subsequent peaks on diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Ginsburg Fringe")
@@ -636,11 +646,13 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Grammanik Tiger FSA
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.18885  
+Longitude: -64.95659  
+Depth: 38 meters  
 
-Characterization:
+Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+Characterization: Grammanik Tiger FSA is a mesophotic coral reef at multi-species fish spawning aggregation in the Grammanik Bank fisheries seasonal closed area. This site shows dominant characteristics on annual frequencies, with a large peak on semidiurnal frequency and subsequent peaks on diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Grammanik Tiger FSA")
@@ -667,11 +679,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Great Pond
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.71097  
+Longitude: -64.65221  
+Depth: 6 meters  
 
-Characterization:
+Years of Data: 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+
+Characterization: Great Pond is a reef with the highest presence of Acropora on south shore of St. Croix in the East End Marine Park. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Great Pond")
@@ -698,11 +713,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Hind Bank East FSA
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.20217  
+Longitude: -65.00158  
+Depth: 39 meters  
 
-Characterization:
+Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+ 
+
+Characterization:Hind Bank East FSA is a mesophotic coral reef at red hind (Epinephelus guttatus) fish spawning aggregation in the Hind Bank Marine Conservation District. This site shows dominant characteristics on annual frequencies, with a large peak on semidiurnal frequency and subsequent peaks on diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Hind Bank East FSA")
@@ -729,11 +747,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Jacks Bay
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.74337  
+Longitude: -64.5716  
+Depth: 14 meters  
 
-Characterization:
+Years of Data: 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+
+Characterization: Jacks Bay is located in East End Marine Park near the southeast tip of St. Croix. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Jacks Bay")
@@ -760,11 +781,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Kings Corner
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.69116  
+Longitude: -64.90008  
+Depth: 17 meters  
 
-Characterization:
+Years of Data: 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+
+Characterization: Kings Corner is located in a western St. Croix site south of Fredriksted. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Kings Corner")
@@ -791,11 +815,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Lang Bank EEMP
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.72145  
+Longitude: -64.54706  
+Depth: 27 meters  
 
-Characterization:
+Years of Data: 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+
+
+Characterization: A mesophotic coral reef in EEMP, selected haphazardly. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Lang Bank EEMP")
@@ -822,11 +849,13 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Lang Bank EEMP 67
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.72145  
+Longitude: -64.54706  
+Depth: 67 meters  
 
-Characterization:
+Years of Data: 2018, 2019  
+
+Characterization: Mesophotic coral reef selected at 67m depth in EEMP. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Lang Bank EEMP 67")
@@ -853,11 +882,13 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Lang Bank EEMP 100
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.72145  
+Longitude: -64.54706  
+Depth: 100 meters  
 
-Characterization:
+Years of Data: 2018, 2019  
+
+Characterization: Mesophotic site selected at 100m in EEMP. This site shows dominant characteristics on annual frequencies, with a greater peak on semidiurnal frequencies than diurnal.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Lang Bank EEMP 100")
@@ -884,11 +915,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Lang Bank Red Hind FSA
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.82427  
+Longitude: -64.44963  
+Depth: 33 meters  
 
-Characterization:
+Years of Data: 2006, 2007, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+
+Characterization: Colocated with a Fish Spawning Aggregation of red hind (Epinephelus guttatus). This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Lang Bank Red Hind FSA")
@@ -915,11 +949,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Magens Bay
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.37425  
+Longitude: -64.93438  
+Depth: 7 meters  
 
-Characterization:
+Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+
+Characterization: Fringing coral reef on northside of St. Thomas impacted by sedimentation from developed hillsides of the watershed. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Magens Bay")
@@ -946,11 +983,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Meri Shoal
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.24447  
+Longitude: -64.75862  
+Depth: 30 meters  
 
-Characterization:
+Years of Data: 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+
+Characterization: Mesophotic reef off St. John south of Pilsbury Sound and near the CariCOOS Buoy VI1. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Meri Shoal")
@@ -977,11 +1017,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Mutton Snapper FSA
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.6366  
+Longitude: -64.8624  
+Depth: 24 meters  
 
-Characterization:
+Years of Data: 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+
+Characterization: Colocation with closed area protecting spawning staging area of muton snapper (Lutjanus analis). This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Mutton Snapper FSA")
@@ -1008,11 +1051,15 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Mutton Snapper FSA 40
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.6366  
+Longitude: -64.8624  
+Depth: 40 meters  
 
-Characterization:
+Years of Data: 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+
+
+Characterization: Mesophotic temperature monitoring location just offshelf from Mutton Snapper Site. This site shows dominant characteristics on annual frequencies, with a greater peak on semidiurnal frequency than diurnal.
+
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Mutton Snapper FSA 40")
@@ -1039,11 +1086,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Salt River 41
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.78523  
+Longitude: -64.75917  
+Depth: 41 meters  
 
-Characterization:
+Years of Data: 2007, 2009, 2010, 2011, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+
+
+Characterization: Down wall from Salt River West site at 41m. This site shows dominant characteristics on annual frequencies, with slightly greater peak on semidiurnal and diurnal peaks.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Salt River 41")
@@ -1070,11 +1120,13 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Salt River 67
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.78523  
+Longitude: -64.75917  
+Depth: 67 meters  
 
-Characterization:
+Years of Data: 2018, 2019  
+
+Characterization: Down wall from Salt River West site at 67m. This site shows dominant characteristics on annual frequencies, with a greater peak on semidiurnal than diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Salt River 67")
@@ -1101,11 +1153,12 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Salt River 100
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.78523  
+Longitude: -64.75917  
+Depth: 100 meters  
+Years of Data: 2018, 2019, 2020, 2021  
 
-Characterization:
+Characterization: Down wall from Salt River West site at 100m. This site shows dominant characteristics on annual frequencies, with a large peak on semidiurnal frequencies compare to diurnal.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Salt River 100")
@@ -1132,11 +1185,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Salt River Deep
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.78523  
+Longitude: -64.75917  
+Depth: 30 meters  
 
-Characterization:
+Years of Data: 2007, 2008, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+
+Characterization: Down wall from the Salt River West site at 30m. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Salt River Deep")
@@ -1163,11 +1219,13 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Salt River West NPS
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.78524  
+Longitude: -64.7606  
+Depth: 11 meters  
 
-Characterization:
+Years of Data: 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+
+Characterization: South Florida Caribbean/Network reef-depth water temperature dataset. Monitoring site within SARI. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Salt River West NPS")
@@ -1194,11 +1252,13 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Salt River West AOML
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.78532  
+Longitude: -64.75953  
+Depth: 15 meters  
 
-Characterization:
+Years of Data: 2016, 2017, 2018, 2019, 2020, 2021, 2022  
+
+Characterization: National Coral Reef Monitoring Program: Water Temperature Data from Subsurface Temperature Recorders (STRs) deployed at coral reef sites in St. Croix. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Salt River West AOML")
@@ -1225,11 +1285,12 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Savana
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.34064  
+Longitude: -65.08205  
+Depth: 9 meters  
+Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
 
-Characterization:
+Characterization: Fringing coral reef near uninhabited Savana Island. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Savana")
@@ -1256,11 +1317,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Seahorse Cottage Shoal
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.29467  
+Longitude: -64.8675  
+Depth: 20 meters  
 
-Characterization:
+Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+
+Characterization: Isoloated midshelf orbicellid bank reef with high coral cover. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Seahorse Cottage Shoal")
@@ -1287,11 +1351,13 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## South Capella
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.26267  
+Longitude: -64.87237  
+Depth: 20 meters  
+Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
 
-Characterization:
+
+Characterization: Midshelf orbicellid linear reef with high coral cover. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("South Capella")
@@ -1318,11 +1384,12 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## South Capella 35
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.26267  
+Longitude: -64.87237  
+Depth: 35 meters  
+Years of Data: 2018, 2019, 2020, 2021, 2022, 2023    
 
-Characterization:
+Characterization: Selected deeper at the South Capella site at 35m. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("South Capella 35")
@@ -1349,11 +1416,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## South Water
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.28068  
+Longitude: -64.94592  
+Depth: 20 meters  
 
-Characterization:
+Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+ 
+
+Characterization: Midshelf hardbottom site with diverse fish community. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("South Water")
