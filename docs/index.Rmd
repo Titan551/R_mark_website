@@ -4,6 +4,7 @@ author: "Cole Sheeley"
 date: "2025-08-20"
 output:
   html_document:
+    self_contained: false
     css: "styles.css"
 ---
 
