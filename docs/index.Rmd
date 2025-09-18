@@ -60,9 +60,9 @@ Coral reefs are integral ecosystems, each with their own set of diverse and ende
 ## **Section 1 - Site Characterization**
 There are several sites across the US Virgin Islands used in this study. These sites were chosen from those used in the Territorial Coral Reef Monitoring Project (TCRMP), with data coming from annual deployments of HOBO Pro V2 Water Temperature Loggers. Missing data gaps were filled using data from NPS deployments at the same site (Reference better).
 
-![Map of sites: St. Thomas and St. John](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/figure/STTSTJ.jpg)
+![Map of sites: St. Thomas and St. John](Images/STTSTJ.jpg)
 
-![Map of sites: St. Croix](C:/UVI/Doug/Thesis project/ABSOLUTE_FINAL_DATA/figure/STX.jpg)
+![Map of sites: St. Croix](Images/STX.jpg)
 
 # Sites {.tabset}
 
@@ -80,23 +80,23 @@ make_site_table("Black Point")
 ```
 
 Longterm temperature timeseries for Black Point (2006-2024)
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Black Point_combined_temperature_time_series.png)
+![Temperature Timeseries](Images/Temp_Black Point_combined_temperature_time_series.png)
 Daily temperature standard deviation for Black Point
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Black Point_daily_low_std.png)
+![Daily Temperature Standard Deviation](Images/Temp_Black Point_daily_low_std.png)
 Linear regression of full timeseries for Black Point
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Black Point_IW_REGRESSION.png)
+![Single Regression Timeseries](Images/Black Point_IW_REGRESSION.png)
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries at Black Point
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Black Point_IW_MULTI_REGRESSION.png)
+![Multi Regression Timeseries](Images/Black Point_IW_MULTI_REGRESSION.png)
 Cold and warm season determination for Black Point
-![Seasonsal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Black Point_seasonal_plot.png)
+![Seasonsal determination](Images/Black Point_seasonal_plot.png)
 Power spectral density for Longterm timeseries at Black point
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Black Point_combined.png)
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Black Point_combined.png)
 Power spectral density for warm months over the full timeseries at Black Point
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Black Point_combined.png)
+![PSD warm season](Images/PSD_warm_Temp_Black Point_combined.png)
 Power spectral density for cold months over the full timeseries at Black Point
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Black Point_combined.png)
+![PSD cold season](Images/PSD_cold_Temp_Black Point_combined.png)
 Internal wave (IW), Non-internal wave (NIW) temperature comparison over full timeseries at Black Point
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Black Point_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Black Point_NIW_IW_comparison.png)
 
 
 ## Botany Bay
@@ -113,23 +113,23 @@ make_site_table("Botany Bay")
 
 
 Longterm temperature timeseries for Botany Bay  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Botany Bay_combined_temperature_time_series.png)
+![Temperature Timeseries](Images/Temp_Botany Bay_combined_temperature_time_series.png)
 Daily temperature standard deviation for Botany Bay  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Botany Bay_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Botany Bay_daily_low_std.png)  
 Linear regression of full timeseries for Botany Bay  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Botany Bay_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Botany Bay_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries at Botany Bay  
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Botany Bay_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Botany Bay_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination for Botany Bay  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Botany Bay_seasonal_plot.png)  
+![Seasonal determination](Images/Botany Bay_seasonal_plot.png)  
 Power spectral density for Longterm timeseries at Botany Bay  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Botany Bay_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Botany Bay_combined.png)  
 Power spectral density for warm months over the full timeseries at Botany Bay  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Botany Bay_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Botany Bay_combined.png)  
 Power spectral density for cold months over the full timeseries at Botany Bay  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Botany Bay_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Botany Bay_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison over full timeseries at Botany Bay  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Botany Bay_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Botany Bay_NIW_IW_comparison.png)
 
 ## Brewers Bay
 Latitude: 18.34403  
@@ -144,23 +144,23 @@ make_site_table("Brewers Bay")
 ```
 
 Longterm temperature timeseries for Brewers Bay  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Brewers Bay_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Brewers Bay_combined_temperature_time_series.png)  
 Daily temperature standard deviation for Brewers Bay  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Brewers Bay_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Brewers Bay_daily_low_std.png)  
 Linear regression of full timeseries for Brewers Bay  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Brewers Bay_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Brewers Bay_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries at Brewers Bay  
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Brewers Bay_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Brewers Bay_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination for Brewers Bay  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Brewers Bay_seasonal_plot.png)  
+![Seasonal determination](Images/Brewers Bay_seasonal_plot.png)  
 Power spectral density for Longterm timeseries at Brewers Bay  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Brewers Bay_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Brewers Bay_combined.png)  
 Power spectral density for warm months over the full timeseries at Brewers Bay  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Brewers Bay_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Brewers Bay_combined.png)  
 Power spectral density for cold months over the full timeseries at Brewers Bay  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Brewers Bay_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Brewers Bay_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison over full timeseries at Brewers Bay  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Brewers Bay_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Brewers Bay_NIW_IW_comparison.png)
 
 
 ## Buck Island STT
@@ -176,15 +176,15 @@ Characterization: Buck Island STT is a fringing reef near the uninhabited Buck I
 make_site_table("Buck Island STT")
 ```
 
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Buck Island STT_combined_temperature_time_series.png)
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Buck Island STT_daily_low_std.png)
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Buck Island STT_IW_REGRESSION.png)
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Buck Island STT_IW_MULTI_REGRESSION.png)
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Buck Island STT_seasonal_plot.png)
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Buck Island STT_combined.png)
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Buck Island STT_combined.png)
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Buck Island STT_combined.png)
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Buck Island STT_NIW_IW_comparison.png)
+![Temperature Timeseries](Images/Temp_Buck Island STT_combined_temperature_time_series.png)
+![Daily Temperature Standard Deviation](Images/Temp_Buck Island STT_daily_low_std.png)
+![Single Regression Timeseries](Images/Buck Island STT_IW_REGRESSION.png)
+![Multi Regression Timeseries](Images/Buck Island STT_IW_MULTI_REGRESSION.png)
+![Seasonal determination](Images/Buck Island STT_seasonal_plot.png)
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Buck Island STT_combined.png)
+![PSD warm season](Images/PSD_warm_Temp_Buck Island STT_combined.png)
+![PSD cold season](Images/PSD_cold_Temp_Buck Island STT_combined.png)
+![Internal Wave effects](Images/Buck Island STT_NIW_IW_comparison.png)
 
 ## Buck Island STX NPS
 Latitude: 17.78537  
@@ -200,23 +200,23 @@ make_site_table("Buck Island STX NPS")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Buck Island STX NPS_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Buck Island STX NPS_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Buck Island STX NPS_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Buck Island STX NPS_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Buck Island STX NPS_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Buck Island STX NPS_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries  
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Buck Island STX NPS_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Buck Island STX NPS_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Buck Island STX NPS_seasonal_plot.png)  
+![Seasonal determination](Images/Buck Island STX NPS_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Buck Island STX NPS_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Buck Island STX NPS_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Buck Island STX NPS_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Buck Island STX NPS_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Buck Island STX NPS_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Buck Island STX NPS_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Buck Island STX NPS_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Buck Island STX NPS_NIW_IW_comparison.png)
 
 ## Buck Island STX Deep
 Latitude: 17.80659  
@@ -231,23 +231,23 @@ make_site_table("Buck Island STX Deep")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Buck Island STX Deep_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Buck Island STX Deep_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Buck Island STX Deep_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Buck Island STX Deep_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Buck Island STX Deep_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Buck Island STX Deep_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Buck Island STX Deep_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Buck Island STX Deep_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Buck Island STX Deep_seasonal_plot.png)  
+![Seasonal determination](Images/Buck Island STX Deep_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Buck Island STX Deep_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Buck Island STX Deep_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Buck Island STX Deep_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Buck Island STX Deep_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Buck Island STX Deep_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Buck Island STX Deep_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Buck Island STX Deep_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Buck Island STX Deep_NIW_IW_comparison.png)
 
 
 ## Cane Bay
@@ -264,23 +264,23 @@ make_site_table("Cane Bay")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Cane Bay_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Cane Bay_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Cane Bay_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Cane Bay_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Cane Bay_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Cane Bay_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay_seasonal_plot.png)  
+![Seasonal determination](Images/Cane Bay_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Cane Bay_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Cane Bay_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Cane Bay_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Cane Bay_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Cane Bay_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Cane Bay_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Cane Bay_NIW_IW_comparison.png)
 
 
 ## Cane Bay 67
@@ -296,23 +296,23 @@ make_site_table("Cane Bay 67")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Cane Bay 67_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Cane Bay 67_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Cane Bay 67_daily_high_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Cane Bay 67_daily_high_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay 67_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Cane Bay 67_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay 67_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Cane Bay 67_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay 67_seasonal_plot.png)  
+![Seasonal determination](Images/Cane Bay 67_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Cane Bay 67_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Cane Bay 67_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Cane Bay 67_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Cane Bay 67_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Cane Bay 67_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Cane Bay 67_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay 67_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Cane Bay 67_NIW_IW_comparison.png)
 
 
 ## Cane Bay 100
@@ -328,23 +328,23 @@ make_site_table("Cane Bay 100")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Cane Bay 100_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Cane Bay 100_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Cane Bay 100_daily_high_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Cane Bay 100_daily_high_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay 100_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Cane Bay 100_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries  
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay 100_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Cane Bay 100_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay 100_seasonal_plot.png)  
+![Seasonal determination](Images/Cane Bay 100_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Cane Bay 100_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Cane Bay 100_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Cane Bay 100_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Cane Bay 100_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Cane Bay 100_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Cane Bay 100_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay 100_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Cane Bay 100_NIW_IW_comparison.png)
 
 
 ## Cane Bay Deep
@@ -360,23 +360,23 @@ make_site_table("Cane Bay Deep")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Cane Bay Deep_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Cane Bay Deep_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Cane Bay Deep_daily_high_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Cane Bay Deep_daily_high_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay Deep_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Cane Bay Deep_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay Deep_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Cane Bay Deep_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay Deep_seasonal_plot.png)  
+![Seasonal determination](Images/Cane Bay Deep_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Cane Bay Deep_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Cane Bay Deep_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Cane Bay Deep_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Cane Bay Deep_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Cane Bay Deep_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Cane Bay Deep_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Cane Bay Deep_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Cane Bay Deep_NIW_IW_comparison.png)
 
 
 ## Castle
@@ -393,23 +393,23 @@ make_site_table("Castle")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Castle_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Castle_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Castle_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Castle_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Castle_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Castle_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Castle_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Castle_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Castle_seasonal_plot.png)  
+![Seasonal determination](Images/Castle_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Castle_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Castle_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Castle_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Castle_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Castle_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Castle_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Castle_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Castle_NIW_IW_comparison.png)
 
 
 ## Coculus Rock
@@ -426,23 +426,23 @@ make_site_table("Coculus Rock")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Coculus Rock_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Coculus Rock_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Coculus Rock_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Coculus Rock_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Coculus Rock_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Coculus Rock_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Coculus Rock_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Coculus Rock_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Coculus Rock_seasonal_plot.png)  
+![Seasonal determination](Images/Coculus Rock_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Coculus Rock_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Coculus Rock_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Coculus Rock_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Coculus Rock_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Coculus Rock_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Coculus Rock_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Coculus Rock_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Coculus Rock_NIW_IW_comparison.png)
 
 
 ## College Shoal East
@@ -459,23 +459,23 @@ make_site_table("College Shoal East")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_College Shoal East_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_College Shoal East_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_College Shoal East_daily_high_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_College Shoal East_daily_high_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/College Shoal East_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/College Shoal East_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/College Shoal East_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/College Shoal East_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/College Shoal East_seasonal_plot.png)  
+![Seasonal determination](Images/College Shoal East_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_College Shoal East_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_College Shoal East_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_College Shoal East_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_College Shoal East_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_College Shoal East_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_College Shoal East_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/College Shoal East_NIW_IW_comparison.png)
+![Internal Wave effects](Images/College Shoal East_NIW_IW_comparison.png)
 
 
 ## Coral Bay
@@ -492,23 +492,23 @@ make_site_table("Coral Bay")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Coral Bay_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Coral Bay_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Coral Bay_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Coral Bay_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Coral Bay_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Coral Bay_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Coral Bay_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Coral Bay_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Coral Bay_seasonal_plot.png)  
+![Seasonal determination](Images/Coral Bay_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Coral Bay_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Coral Bay_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Coral Bay_combined.png)  
+![PSD warm season](Images/PSD_cold_Temp_Coral Bay_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Coral Bay_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Coral Bay_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Coral Bay_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Coral Bay_NIW_IW_comparison.png)
 
 
 ## Eagle Ray
@@ -525,23 +525,23 @@ make_site_table("Eagle Ray")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Eagle Ray_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Eagle Ray_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Eagle Ray_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Eagle Ray_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Eagle Ray_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Eagle Ray_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Eagle Ray_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Eagle Ray_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Eagle Ray_seasonal_plot.png)  
+![Seasonal determination](Images/Eagle Ray_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Eagle Ray_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Eagle Ray_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Eagle Ray_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Eagle Ray_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Eagle Ray_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Eagle Ray_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Eagle Ray_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Eagle Ray_NIW_IW_comparison.png)
 
 
 ## Fish Bay
@@ -559,23 +559,23 @@ make_site_table("Fish Bay")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Fish Bay_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Fish Bay_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Fish Bay_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Fish Bay_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Fish Bay_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Fish Bay_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Fish Bay_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Fish Bay_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Fish Bay_seasonal_plot.png)  
+![Seasonal determination](Images/Fish Bay_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Fish Bay_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Fish Bay_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Fish Bay_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Fish Bay_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Fish Bay_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Fish Bay_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Fish Bay_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Fish Bay_NIW_IW_comparison.png)
 
 
 ## Flat Cay
@@ -592,23 +592,23 @@ make_site_table("Flat Cay")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Flat Cay_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Flat Cay_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Flat Cay_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Flat Cay_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Flat Cay_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Flat Cay_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Flat Cay_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Flat Cay_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Flat Cay_seasonal_plot.png)  
+![Seasonal determination](Images/Flat Cay_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Flat Cay_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Flat Cay_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Flat Cay_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Flat Cay_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Flat Cay_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Flat Cay_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Flat Cay_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Flat Cay_NIW_IW_comparison.png)
 
 
 ## Ginsburg Fringe
@@ -626,23 +626,23 @@ make_site_table("Ginsburg Fringe")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Ginsburg Fringe_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Ginsburg Fringe_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Ginsburg Fringe_daily_high_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Ginsburg Fringe_daily_high_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Ginsburg Fringe_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Ginsburg Fringe_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Ginsburg Fringe_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Ginsburg Fringe_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Ginsburg Fringe_seasonal_plot.png)  
+![Seasonal determination](Images/Ginsburg Fringe_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Ginsburg Fringe_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Ginsburg Fringe_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Ginsburg Fringe_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Ginsburg Fringe_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Ginsburg Fringe_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Ginsburg Fringe_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Ginsburg Fringe_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Ginsburg Fringe_NIW_IW_comparison.png)
 
 
 ## Grammanik Tiger FSA
@@ -659,23 +659,23 @@ make_site_table("Grammanik Tiger FSA")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Grammanik Tiger FSA_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Grammanik Tiger FSA_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Grammanik Tiger FSA_daily_high_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Grammanik Tiger FSA_daily_high_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Grammanik Tiger FSA_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Grammanik Tiger FSA_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Grammanik Tiger FSA_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Grammanik Tiger FSA_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Grammanik Tiger FSA_seasonal_plot.png)  
+![Seasonal determination](Images/Grammanik Tiger FSA_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Grammanik Tiger FSA_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Grammanik Tiger FSA_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Grammanik Tiger FSA_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Grammanik Tiger FSA_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Grammanik Tiger FSA_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Grammanik Tiger FSA_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Grammanik Tiger FSA_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Grammanik Tiger FSA_NIW_IW_comparison.png)
 
 
 ## Great Pond
@@ -693,23 +693,23 @@ make_site_table("Great Pond")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Great Pond_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Great Pond_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Great Pond_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Great Pond_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Great Pond_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Great Pond_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Great Pond_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Great Pond_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Great Pond_seasonal_plot.png)  
+![Seasonal determination](Images/Great Pond_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Great Pond_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Great Pond_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Great Pond_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Great Pond_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Great Pond_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Great Pond_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Great Pond_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Great Pond_NIW_IW_comparison.png)
 
 
 ## Hind Bank East FSA
@@ -727,23 +727,23 @@ make_site_table("Hind Bank East FSA")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Hind Bank East FSA_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Hind Bank East FSA_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Hind Bank East FSA_daily_high_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Hind Bank East FSA_daily_high_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Hind Bank East FSA_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Hind Bank East FSA_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Hind Bank East FSA_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Hind Bank East FSA_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Hind Bank East FSA_seasonal_plot.png)  
+![Seasonal determination](Images/Hind Bank East FSA_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Hind Bank East FSA_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Hind Bank East FSA_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Hind Bank East FSA_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Hind Bank East FSA_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Hind Bank East FSA_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Hind Bank East FSA_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Hind Bank East FSA_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Hind Bank East FSA_NIW_IW_comparison.png)
 
 
 ## Jacks Bay
@@ -761,23 +761,23 @@ make_site_table("Jacks Bay")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Jacks Bay_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Jacks Bay_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Jacks Bay_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Jacks Bay_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Jacks Bay_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Jacks Bay_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Jacks Bay_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Jacks Bay_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Jacks Bay_seasonal_plot.png)  
+![Seasonal determination](Images/Jacks Bay_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Jacks Bay_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Jacks Bay_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Jacks Bay_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Jacks Bay_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Jacks Bay_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Jacks Bay_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Jacks Bay_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Jacks Bay_NIW_IW_comparison.png)
 
 
 ## Kings Corner
@@ -795,23 +795,23 @@ make_site_table("Kings Corner")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Kings Corner_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Kings Corner_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Kings Corner_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Kings Corner_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Kings Corner_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Kings Corner_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Kings Corner_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Kings Corner_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Kings Corner_seasonal_plot.png)  
+![Seasonal determination](Images/Kings Corner_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Kings Corner_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Kings Corner_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Kings Corner_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Kings Corner_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Kings Corner_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Kings Corner_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Kings Corner_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Kings Corner_NIW_IW_comparison.png)
 
 
 ## Lang Bank EEMP
@@ -829,23 +829,23 @@ make_site_table("Lang Bank EEMP")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Lang Bank EEMP_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Lang Bank EEMP_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Lang Bank EEMP_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Lang Bank EEMP_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank EEMP_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Lang Bank EEMP_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank EEMP_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Lang Bank EEMP_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank EEMP_seasonal_plot.png)  
+![Seasonal determination](Images/Lang Bank EEMP_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Lang Bank EEMP_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Lang Bank EEMP_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Lang Bank EEMP_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Lang Bank EEMP_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Lang Bank EEMP_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Lang Bank EEMP_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank EEMP_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Lang Bank EEMP_NIW_IW_comparison.png)
 
 
 ## Lang Bank EEMP 67
@@ -862,23 +862,23 @@ make_site_table("Lang Bank EEMP 67")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Lang Bank EEMP 67_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Lang Bank EEMP 67_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Lang Bank EEMP 67_daily_high_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Lang Bank EEMP 67_daily_high_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank EEMP 67_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Lang Bank EEMP 67_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank EEMP 67_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Lang Bank EEMP 67_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank EEMP 67_seasonal_plot.png)  
+![Seasonal determination](Images/Lang Bank EEMP 67_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Lang Bank EEMP 67_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Lang Bank EEMP 67_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Lang Bank EEMP 67_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Lang Bank EEMP 67_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Lang Bank EEMP 67_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Lang Bank EEMP 67_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank EEMP 67_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Lang Bank EEMP 67_NIW_IW_comparison.png)
 
 
 ## Lang Bank EEMP 100
@@ -895,23 +895,23 @@ make_site_table("Lang Bank EEMP 100")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Lang Bank EEMP 100_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Lang Bank EEMP 100_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Lang Bank EEMP 100_daily_high_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Lang Bank EEMP 100_daily_high_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank EEMP 100_IW_REGRESSION.png)
+![Single Regression Timeseries](Images/Lang Bank EEMP 100_IW_REGRESSION.png)
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank EEMP 100_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Lang Bank EEMP 100_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank EEMP 100_seasonal_plot.png)  
+![Seasonal determination](Images/Lang Bank EEMP 100_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Lang Bank EEMP 100_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Lang Bank EEMP 100_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Lang Bank EEMP 100_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Lang Bank EEMP 100_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Lang Bank EEMP 100_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Lang Bank EEMP 100_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank EEMP 100_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Lang Bank EEMP 100_NIW_IW_comparison.png)
 
 
 ## Lang Bank Red Hind FSA
@@ -929,23 +929,23 @@ make_site_table("Lang Bank Red Hind FSA")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Lang Bank Red Hind FSA_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Lang Bank Red Hind FSA_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Lang Bank Red Hind FSA_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Lang Bank Red Hind FSA_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank Red Hind FSA_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Lang Bank Red Hind FSA_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank Red Hind FSA_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Lang Bank Red Hind FSA_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank Red Hind FSA_seasonal_plot.png)  
+![Seasonal determination](Images/Lang Bank Red Hind FSA_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Lang Bank Red Hind FSA_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Lang Bank Red Hind FSA_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Lang Bank Red Hind FSA_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Lang Bank Red Hind FSA_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Lang Bank Red Hind FSA_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Lang Bank Red Hind FSA_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Lang Bank Red Hind FSA_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Lang Bank Red Hind FSA_NIW_IW_comparison.png)
 
 
 ## Magens Bay
@@ -963,23 +963,23 @@ make_site_table("Magens Bay")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Magens Bay_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Magens Bay_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Magens Bay_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Magens Bay_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Magens Bay_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Magens Bay_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Magens Bay_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Magens Bay_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Magens Bay_seasonal_plot.png)  
+![Seasonal determination](Images/Magens Bay_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Magens Bay_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Magens Bay_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Magens Bay_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Magens Bay_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Magens Bay_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Magens Bay_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Magens Bay_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Magens Bay_NIW_IW_comparison.png)
 
 
 ## Meri Shoal
@@ -997,23 +997,23 @@ make_site_table("Meri Shoal")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Meri Shoal_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Meri Shoal_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Meri Shoal_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Meri Shoal_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Meri Shoal_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Meri Shoal_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Meri Shoal_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Meri Shoal_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Meri Shoal_seasonal_plot.png)  
+![Seasonal determination](Images/Meri Shoal_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Meri Shoal_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Meri Shoal_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Meri Shoal_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Meri Shoal_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Meri Shoal_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Meri Shoal_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Meri Shoal_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Meri Shoal_NIW_IW_comparison.png)
 
 
 ## Mutton Snapper FSA
@@ -1031,23 +1031,23 @@ make_site_table("Mutton Snapper FSA")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Mutton Snapper FSA_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Mutton Snapper FSA_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Mutton Snapper FSA_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Mutton Snapper FSA_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Mutton Snapper FSA_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Mutton Snapper FSA_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Mutton Snapper FSA_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Mutton Snapper FSA_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Mutton Snapper FSA_seasonal_plot.png)  
+![Seasonal determination](Images/Mutton Snapper FSA_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Mutton Snapper FSA_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Mutton Snapper FSA_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Mutton Snapper FSA_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Mutton Snapper FSA_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Mutton Snapper FSA_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Mutton Snapper FSA_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Mutton Snapper FSA_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Mutton Snapper FSA_NIW_IW_comparison.png)
 
 
 ## Mutton Snapper FSA 40
@@ -1066,23 +1066,23 @@ make_site_table("Mutton Snapper FSA 40")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Mutton Snapper FSA 40_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Mutton Snapper FSA 40_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Mutton Snapper FSA 40_daily_high_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Mutton Snapper FSA 40_daily_high_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Mutton Snapper FSA 40_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Mutton Snapper FSA 40_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Mutton Snapper FSA 40_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Mutton Snapper FSA 40_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Mutton Snapper FSA 40_seasonal_plot.png)  
+![Seasonal determination](Images/Mutton Snapper FSA 40_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Mutton Snapper FSA 40_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Mutton Snapper FSA 40_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Mutton Snapper FSA 40_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Mutton Snapper FSA 40_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Mutton Snapper FSA 40_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Mutton Snapper FSA 40_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Mutton Snapper FSA 40_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Mutton Snapper FSA 40_NIW_IW_comparison.png)
 
 
 ## Salt River 41
@@ -1100,23 +1100,23 @@ make_site_table("Salt River 41")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Salt River 41_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Salt River 41_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Salt River 41_daily_high_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Salt River 41_daily_high_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River 41_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Salt River 41_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River 41_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Salt River 41_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River 41_seasonal_plot.png)  
+![Seasonal determination](Images/Salt River 41_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Salt River 41_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Salt River 41_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Salt River 41_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Salt River 41_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Salt River 41_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Salt River 41_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River 41_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Salt River 41_NIW_IW_comparison.png)
 
 
 ## Salt River 67
@@ -1133,23 +1133,23 @@ make_site_table("Salt River 67")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Salt River 67_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Salt River 67_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Salt River 67_daily_high_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Salt River 67_daily_high_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River 67_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Salt River 67_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River 67_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Salt River 67_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River 67_seasonal_plot.png)  
+![Seasonal determination](Images/Salt River 67_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Salt River 67_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Salt River 67_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Salt River 67_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Salt River 67_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Salt River 67_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Salt River 67_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River 67_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Salt River 67_NIW_IW_comparison.png)
 
 
 ## Salt River 100
@@ -1165,23 +1165,23 @@ make_site_table("Salt River 100")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Salt River 100_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Salt River 100_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Salt River 100_daily_high_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Salt River 100_daily_high_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River 100_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Salt River 100_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River 100_NIW_IW_comparison.png)  
+![Multi Regression Timeseries](Images/Salt River 100_NIW_IW_comparison.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River 100_seasonal_plot.png)  
+![Seasonal determination](Images/Salt River 100_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Salt River 100_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Salt River 100_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Salt River 100_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Salt River 100_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Salt River 100_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Salt River 100_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River 100_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Salt River 100_NIW_IW_comparison.png)
 
 
 ## Salt River Deep
@@ -1199,23 +1199,23 @@ make_site_table("Salt River Deep")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Salt River Deep_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Salt River Deep_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Salt River Deep_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Salt River Deep_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River Deep_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Salt River Deep_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River Deep_NIW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Salt River Deep_NIW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River Deep_seasonal_plot.png)  
+![Seasonal determination](Images/Salt River Deep_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Salt River Deep_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Salt River Deep_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Salt River Deep_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Salt River Deep_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Salt River Deep_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Salt River Deep_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River Deep_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Salt River Deep_NIW_IW_comparison.png)
 
 
 ## Salt River West NPS
@@ -1232,23 +1232,23 @@ make_site_table("Salt River West NPS")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Salt River West NPS_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Salt River West NPS_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Salt River West NPS_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Salt River West NPS_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River West NPS_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Salt River West NPS_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River West NPS_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Salt River West NPS_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River West NPS_seasonal_plot.png)  
+![Seasonal determination](Images/Salt River West NPS_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Salt River West NPS_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Salt River West NPS_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Salt River West NPS_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Salt River West NPS_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Salt River West NPS_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Salt River West NPS_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River West NPS_NIW_IW_comparison.png)  
+![Internal Wave effects](Images/Salt River West NPS_NIW_IW_comparison.png)  
 
 
 ## Salt River West AOML
@@ -1265,23 +1265,23 @@ make_site_table("Salt River West AOML")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Salt River West AOML_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Salt River West AOML_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Salt River West AOML_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Salt River West AOML_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River West AOML_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Salt River West AOML_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River West AOML_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Salt River West AOML_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River West AOML_seasonal_plot.png)  
+![Seasonal determination](Images/Salt River West AOML_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Salt River West AOML_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Salt River West AOML_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Salt River West AOML_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Salt River West AOML_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Salt River West AOML_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Salt River West AOML_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Salt River West AOML_NIW_IW_comparison.png)  
+![Internal Wave effects](Images/Salt River West AOML_NIW_IW_comparison.png)  
 
 
 ## Savana
@@ -1297,23 +1297,23 @@ make_site_table("Savana")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Savana_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Savana_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Savana_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Savana_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Savana_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Savana_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Savana_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Savana_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Savana_seasonal_plot.png)  
+![Seasonal determination](Images/Savana_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Savana_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Savana_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Savana_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Savana_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Savana_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Savana_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Savana_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Savana_NIW_IW_comparison.png)
 
 
 ## Seahorse Cottage Shoal
@@ -1331,23 +1331,23 @@ make_site_table("Seahorse Cottage Shoal")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Seahorse Cottage Shoal_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Seahorse Cottage Shoal_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Seahorse Cottage Shoal_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Seahorse Cottage Shoal_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Seahorse Cottage Shoal_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Seahorse Cottage Shoal_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Seahorse Cottage Shoal_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Seahorse Cottage Shoal_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Seahorse Cottage Shoal_seasonal_plot.png)  
+![Seasonal determination](Images/Seahorse Cottage Shoal_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Seahorse Cottage Shoal_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Seahorse Cottage Shoal_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Seahorse Cottage Shoal_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Seahorse Cottage Shoal_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Seahorse Cottage Shoal_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Seahorse Cottage Shoal_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Seahorse Cottage Shoal_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Seahorse Cottage Shoal_NIW_IW_comparison.png)
 
 
 ## South Capella
@@ -1364,23 +1364,23 @@ make_site_table("South Capella")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_South Capella_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_South Capella_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_South Capella_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_South Capella_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/South Capella_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/South Capella_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/South Capella_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/South Capella_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/South Capella_seasonal_plot.png)  
+![Seasonal determination](Images/South Capella_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_South Capella_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_South Capella_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_South Capella_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_South Capella_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_South Capella_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_South Capella_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/South Capella_NIW_IW_comparison.png)
+![Internal Wave effects](Images/South Capella_NIW_IW_comparison.png)
 
 
 ## South Capella 35
@@ -1396,23 +1396,23 @@ make_site_table("South Capella 35")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_South Capella 35_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_South Capella 35_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_South Capella 35_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_South Capella 35_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/South Capella 35_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/South Capella 35_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/South Capella 35_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/South Capella 35_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/South Capella 35_seasonal_plot.png)  
+![Seasonal determination](Images/South Capella 35_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_South Capella 35_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_South Capella 35_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_South Capella 35_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_South Capella 35_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_South Capella 35_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_South Capella 35_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/South Capella 35_NIW_IW_comparison.png)
+![Internal Wave effects](Images/South Capella 35_NIW_IW_comparison.png)
 
 
 ## South Water
@@ -1430,23 +1430,23 @@ make_site_table("South Water")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_South Water_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_South Water_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_South Water_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_South Water_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/South Water_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/South Water_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/South Water_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/South Water_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/South Water_seasonal_plot.png)  
+![Seasonal determination](Images/South Water_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_South Water_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_South Water_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_South Water_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_South Water_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_South Water_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_South Water_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/South Water_NIW_IW_comparison.png)
+![Internal Wave effects](Images/South Water_NIW_IW_comparison.png)
 
 
 ## Sprat Hole
@@ -1464,23 +1464,23 @@ make_site_table("Sprat Hole")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Sprat Hole_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_Sprat Hole_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_Sprat Hole_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_Sprat Hole_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Sprat Hole_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/Sprat Hole_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Sprat Hole_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/Sprat Hole_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Sprat Hole_seasonal_plot.png)  
+![Seasonal determination](Images/Sprat Hole_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_Sprat Hole_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_Sprat Hole_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_Sprat Hole_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_Sprat Hole_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_Sprat Hole_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_Sprat Hole_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Sprat Hole_NIW_IW_comparison.png)
+![Internal Wave effects](Images/Sprat Hole_NIW_IW_comparison.png)
 
 
 ## St James
@@ -1498,23 +1498,23 @@ make_site_table("St James")
 ```
 
 Longterm temperature timeseries  
-![Temperature Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_St James_combined_temperature_time_series.png)  
+![Temperature Timeseries](Images/Temp_St James_combined_temperature_time_series.png)  
 Daily temperature standard deviation  
-![Daily Temperature Standard Deviation](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/Temp_St James_daily_low_std.png)  
+![Daily Temperature Standard Deviation](Images/Temp_St James_daily_low_std.png)  
 Linear regression of full timeseries  
-![Single Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/St James_IW_REGRESSION.png)  
+![Single Regression Timeseries](Images/St James_IW_REGRESSION.png)  
 Multi-linear regression of daily mean, max, and min, temperature for full timeseries
-![Multi Regression Timeseries](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/St James_IW_MULTI_REGRESSION.png)  
+![Multi Regression Timeseries](Images/St James_IW_MULTI_REGRESSION.png)  
 Cold and warm season determination  
-![Seasonal determination](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/St James_seasonal_plot.png)  
+![Seasonal determination](Images/St James_seasonal_plot.png)  
 Power spectral density for Longterm timeseries  
-![Power Spectral Density (PSD)](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_LT_Temp_St James_combined.png)  
+![Power Spectral Density (PSD)](Images/PSD_LT_Temp_St James_combined.png)  
 Power spectral density for warm months  
-![PSD warm season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_warm_Temp_St James_combined.png)  
+![PSD warm season](Images/PSD_warm_Temp_St James_combined.png)  
 Power spectral density for cold months  
-![PSD cold season](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/PSD_cold_Temp_St James_combined.png)  
+![PSD cold season](Images/PSD_cold_Temp_St James_combined.png)  
 Internal wave (IW), Non-internal wave (NIW) temperature comparison  
-![Internal Wave effects](C:/UVI/Doug/Thesis project/WEBSITE/docs/Images/St James_NIW_IW_comparison.png)
+![Internal Wave effects](Images/St James_NIW_IW_comparison.png)
 
 
 
