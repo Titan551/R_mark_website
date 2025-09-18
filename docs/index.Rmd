@@ -1450,11 +1450,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## Sprat Hole
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 17.734  
+Longitude: -64.8954  
+Depth: 8 meters  
 
-Characterization:
+Years of Data: 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+
+Characterization: High density Orbicellia annularis reef near a dive mooring on west St. Croix north of Fredriksted. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("Sprat Hole")
@@ -1481,11 +1484,14 @@ Internal wave (IW), Non-internal wave (NIW) temperature comparison
 
 
 ## St James
-Latitude:  
-Longitude:  
-Depth:  
+Latitude: 18.29459  
+Longitude: -64.83238  
+Depth: 15 meters  
 
-Characterization:
+Years of Data: 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024  
+
+
+Characterization: Patch reef near developing cay. This site shows dominant characteristics on annual frequencies, with subsequent peaks on diurnal and semi diurnal frequencies.
 
 ```{python, results='asis', echo=FALSE}
 make_site_table("St James")
